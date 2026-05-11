@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+>>>>>>> Ders2
   </ItemGroup>
 
 </Project>
