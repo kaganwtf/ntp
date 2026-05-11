@@ -1,0 +1,9 @@
+# Ignore all files in old folder
+# This folder contains historical branch snapshots
+*.bin
+*.obj
+*.exe
+*.pdb
+.vs/
+bin/
+obj/
