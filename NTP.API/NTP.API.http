@@ -1,6 +1,6 @@
-@NTP.API_HostAddress = http://localhost:5034
+@Ntp.API_HostAddress = http://localhost:5052
 
-GET {{NTP.API_HostAddress}}/weatherforecast/
+GET {{Ntp.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
