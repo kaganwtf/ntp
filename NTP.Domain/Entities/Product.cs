@@ -11,13 +11,13 @@ public class Product : EntityBase
 
     public Product(string name, int price, string description)
     {
-        name = Name;
-        price = Price;
-        description = Description;
+        Name = name;
+        Price = price;
+        Description = description;
     }
     public string Name { get; set; }
     public int Price { get; set; }
     //public string ImageUrl { get; set; }
     public string Description { get; set; }
-    public ICollection<Category> Categories { get; set; }
+    public ICollection<ProductCategory> ProductCategories { get; set; }
 }
