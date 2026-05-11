@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="NTP.Application/NTP.Application.csproj" />
+    <Project Path="NTP.Domain/NTP.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructrue/">
+    <Project Path="NTP.Infrastructrue/NTP.Infrastructrue.csproj" />
+    <Project Path="NTP.Persistance/NTP.Persistance.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="NTP.API/NTP.API.csproj" />
+  </Folder>
+</Solution>

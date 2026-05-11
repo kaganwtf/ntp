@@ -1,0 +1,6 @@
+@NTP.Application_HostAddress = http://localhost:5155
+
+GET {{NTP.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
